@@ -1,0 +1,36 @@
+*{
+    margin:0;
+}
+
+body{
+    background: url(https://picsum.photos/1920/1080/);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    background: #33333399;
+}
+
+header ul{
+    list-style-type: none;
+    text-align: right;
+}
+
+header li{
+    display: inline;
+}
+
+header a{
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 25px;
+    display: inline-block;
+    height: 25px;
+    padding: 10px 50px 15px;
+}
+
+header a:hover{
+    color: #eeeeee;
+    text-decoration: underline;
+}
